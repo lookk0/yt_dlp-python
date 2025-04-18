@@ -5,7 +5,7 @@ link = input("put link: ")
 folder = r"\%(title)s.%(ext)s"
 
 ydl_opts = {
-    'format': 'best',
+    'format': 'bestvideo+bestaudio/best',
     'outtmpl': folder
 }
 
