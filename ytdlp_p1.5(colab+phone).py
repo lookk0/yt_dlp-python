@@ -8,7 +8,7 @@ from google.colab import files
 
 # ตั้งค่าการโหลด
 ydl_opts = {
-    'format': 'best',
+    'format': 'bestvideo+bestaudio/best',
     'outtmpl': '%(title)s.%(ext)s'  
 }
 
