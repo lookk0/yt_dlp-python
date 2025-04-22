@@ -39,7 +39,10 @@ ydl_opts = {
         'key': 'FFmpegVideoConvertor',
         'preferedformat': 'mp4', 
     }],
-
+    'write_subtitles': Issub, # เพิ่มซับอัตโนมัติจาก yt ไหม
+    'writeautomaticsub': Issub, # เพิ่มซับอัตโนมัติจากเจ้าของ ไหม
+    'subtitleslangs': [lang],  # ซับภาษาอะไร หรือ ['all'] เพื่อโหลดทุกภาษา
+    'embedsubtitles': Ismerge, # รวมซับในคริปไหม
     'outtmpl': folder,
 }
 
